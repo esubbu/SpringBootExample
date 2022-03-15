@@ -1,0 +1,20 @@
+server.servlet.context-path=/api
+server.port=8090
+
+#enabling the H2 console             
+#spring.h2.console.enabled=true
+   
+#persist the data  
+#spring.datasource.url=jdbc:h2:mem:testdb
+#spring.h2.console.path=/h2-console
+#spring.datasource.driverClassName=org.h2.Driver
+#spring.datasource.username=sa
+#spring.datasource.password=password
+#spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+
+#spring.h2.console.settings.trace=false
+
+#mongodb properties
+spring.data.mongodb.host=localhost
+spring.data.mongodb.port=27017
+spring.data.mongodb.database=entertainmentdb
